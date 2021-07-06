@@ -69,7 +69,7 @@ function install_ubuntu_lib() {
   apt-get -y install libkmod2
   apt-get -y install libudev1
   apt-get -y install libjemalloc-dev
-  apt-get -y pkg-config
+  apt-get -y install pkg-config
   apt-get -y install uuid-dev libuuid1
   apt-get -y install libjson-c-dev
   apt -y install llvm-7
